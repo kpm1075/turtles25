@@ -1,0 +1,3 @@
+The first maze that we added was difficult because it contained a larger square within the maze that would be tougher for the turtle to navigate without getting stuck in an infinite loop. We solved this by explaining the new maze to aider, which implemented a more advanced loop detection mechanism to prevent the turtle from staying stuck in the loop forever. 
+
+The second maze we added was difficult because it's finishing block was placed down one level. This meant that we had to add code that had the turtle constantly check and detect if there was a block beneath it after each movement. If it did not detect a block beneath it, then the turtle would go down, helping solve this new maze type.
